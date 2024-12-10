@@ -18,10 +18,10 @@
 </head>
 <body>
     <header class="page-header">
-        <div class="container">
+        <div class="container header-container">
         <nav class="header-nav">
-            |<a class="logo header-logo" 
-             href="./index.html">Web<span class="logo-part">Studio</span> </a>
+            <a class="logo header-logo" 
+            href="./index.html">Web<span class="logo-part">Studio</span> </a>
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" 
                      href="./index.html">Studio</a></li>
@@ -51,14 +51,17 @@
 
      <main>
         <section class="hero">
-            <h1 class="hero-title">Effective Solutions
+            <div class="container">
+             <h1 class="hero-title">Effective Solutions
             for Your Business</h1>
             <button class="hero-btn" type="button">Order Service</button>
+             </div>
         </section>
 
         <!-- Section1 -->
          <section class="about">
-            <h2 hidden> Section1 </h2>
+           <div class="container">
+            <h2 class="visually hidden"hidden> Section1 </h2>
             <ul class="about-list">
                 <li class="about-item">
                     <h3 class="about-title">Strategy</h3>
@@ -91,6 +94,7 @@
                     </p>
                 </li>
             </ul>
+           </div>
          </section>
          <!--Section2-->
          <section class="team-page">
